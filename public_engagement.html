@@ -21,3 +21,24 @@ title: Jeffrey Ding | Public Engagement
 <h3>ChinAI Newsletter /h3>
 
 <p>I am the creator and publisher of the weekly <a href="https://www.chinai.substack.com">ChinAI newsletter</a>, with 7300+ subscribers, containing translations of writings on artificial intelligence policy and strategy from Chinese thinkers.
+
+	<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+			
+
+
+		</div> 
